@@ -62,15 +62,18 @@ The security of the proposed algorithm was analyzed using AVISPA. The following 
    ```bash
    python server.py
 Start the client:
-bash
-Copy code
+
 python client.py
+
+
 Observe the key exchange and communication results.
-AVISPA Analysis
-Write the HLPSL model for the protocol.
-Run the AVISPA tool on the model.
-Verify the results for security validation.
+1. AVISPA Analysis
+2. Write the HLPSL model for the protocol.
+3. Run the AVISPA tool on the model.
+4. Verify the results for security validation.
+
+   
 Future Work
-Extend the algorithm to support dynamic key lengths.
-Implement additional security features, such as perfect forward secrecy.
-Analyze performance on more advanced hardware setups.
+1. Extend the algorithm to support dynamic key lengths.
+2. Implement additional security features, such as perfect forward secrecy.
+3. Analyze performance on more advanced hardware setups.
